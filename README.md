@@ -9,7 +9,7 @@ WildFly Swarm Doma Demo
 java -jar target/wildfly-swarm-doma-demo-swarm.jar
 ```
 
-## Access APIS
+## Access APIs
 
 ### GET all
 
