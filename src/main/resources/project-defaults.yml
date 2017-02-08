@@ -1,0 +1,11 @@
+swarm:
+  datasources:
+    data-sources:
+      domaDS:
+        driver-name: h2
+        connection-url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=TRUE
+        user-name: sa
+        password: sa
+  ee:
+    default-bindings-service:
+      datasource: java:jboss/datasources/domaDS
